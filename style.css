@@ -1,3 +1,48 @@
+
+/*commons*/
+
+*, *:focus,.btn,.btn:focus{
+	outline: 0!important;
+	text-decoration: none;
+}
+a, button, input{
+	outline: 0;
+	border: 0;
+	-ms-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+a, a:hover, a:focus, button:hover, button:focus{
+	text-decoration: none;
+	outline: 0;
+}
+ 
+body {
+    background: #fff;
+    color: #000;
+    font-size: 22px;
+    line-height: 1.2;
+    font-family: 'Montserrat-Regular';
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.ulc{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.overlay-link{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+/*typo*/
+
 h1{
 	font-size: 55px
 }
@@ -5,27 +50,89 @@ h2{
 	font-size: 36px
 }
 
+h3{
+	font-size: 24px
+}
+
+
+
+
+.first-time-offer-sec{
+	background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+	text-align: center;
+	padding: 10px 0 15px;
+	color: #fff;
+}
+
+.first-time-offer-sec h3{
+	font-family: 'Montserrat-SemiBold';
+	font-size: 24px;
+	font-style: italic;
+
+}
+
+.first-time-offer-sec h1{
+	font-family: 'calisMTbol';
+	color:#ffde6b;
+}
+
+.first-time-offer-sec strong{
+	font-family: 'calisMTbol';
+	font-size: 36px;
+	display: inline-block;
+	vertical-align: baseline;
+}
+.first-time-offer-sec span{
+	font-family: 'Montserrat-Medium';
+	font-size: 24px;
+	display: inline-block;
+	vertical-align: baseline;
+}
+.conversation-sec{
+	padding: 50px 0 60px 20px;
+}
+.conversation-main{
+	padding-right: 600px;
+	position: relative;
+}
+.conversation-img{
+	position: absolute;
+	background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+	top:0;
+	left: 0;
+	bottom: 0;
+	left: 50%;
+}
+.inflammation-head{
+	text-align: center;
+}
+.inflammation-head h2{
+	font-family: 'calisMTbol';
+}
+
+.health-risks-hrad{
+	background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'calisMTbol';
+}
 
 
 
 
 
-/*
-Montserrat bold
-Montserrat Medium
-Montserrat Regular
-Montserrat semi bold italic
-
-calisMTbol
-
-barlowCondensed Bold
-barlow Bold
-barlow Medium
-barlow Extra Bold
 
 
-55 pt
-36px*/
+
+
+
 
 
 
