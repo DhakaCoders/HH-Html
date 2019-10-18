@@ -22,10 +22,16 @@
 
 <script src="assets/js/jquery.min.js"></script>
 <script defer src="assets/js/bootstrap.min.js"></script>
-<script defer src="assets/js/ie10-viewport-bug-workaround.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.8.0/lazyload.min.js"></script>
 <script defer src="assets/js/app.js"></script>
 <script defer src="assets/js/main.js"></script>
+<script type="text/javascript">
+  window.onload = function() {
 
+      var newd1 = new LazyLoad({
+          elements_selector: ".lazy"
+      });
+  }
+</script>
 </body>
 </html>
