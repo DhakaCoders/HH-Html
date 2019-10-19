@@ -110,6 +110,18 @@
 }
 
 
+@font-face {
+    font-family: 'BarlowCondensed-Regular';
+    src: url('BarlowCondensed-Regular/BarlowCondensed-Regular.eot');
+    src: url('BarlowCondensed-Regular/BarlowCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BarlowCondensed-Regular/BarlowCondensed-Regular.woff2') format('woff2'),
+        url('BarlowCondensed-Regular/BarlowCondensed-Regular.woff') format('woff'),
+        url('BarlowCondensed-Regular/BarlowCondensed-Regular.ttf') format('truetype'),
+        url('BarlowCondensed-Regular/BarlowCondensed-Regular.svg#BarlowCondensed-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 

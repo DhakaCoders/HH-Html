@@ -50,8 +50,12 @@ p{
 	margin-bottom: 26px;
 }
 .plr-30{
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 30px!important;
+	padding-right: 30px!important;
+}
+.plr-10{
+	padding-left: 10px!important;
+	padding-right: 10px!important;
 }
 .hh-page-bdy-controller{
 	max-width: 1170px;
