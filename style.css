@@ -77,76 +77,148 @@ h3{
 
 
 
-
-.first-time-offer-innr{
-	background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center center !important;
-	text-align: center;
-	padding: 10px 0 15px;
-	color: #fff;
+/* Header */
+.header {
+	background: #fff;
+	padding: 12px 0;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+	-ms-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.header .hdr-logo{
+	display: inline-block;
+	vertical-align: baseline;
+	max-width: 185px;
+}
+.header .secure-img{
+	display: inline-block;
+	vertical-align: baseline;
+	float: right;
+	max-width: 225px;
+}
+.header img{
+	width:100%;
 }
 
-.first-time-offer-sec h3{
+
+.hh-shipping-progress-bar{
+}
+.shipping-progress-bar-con {
+    background: #fff;
+    padding: 115px 0 40px;
+}
+
+
+
+
+
+
+
+
+.special-offer-con {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    text-align: center;
+    padding: 38px 118px 55px;
+    color: #fff;
+}
+
+.special-offer-con h3{
 	font-family: 'Montserrat-SemiBold';
 	font-size: 24px;
 	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 50px;
 
 }
 
-.first-time-offer-sec h1{
+.special-offer-con h1{
 	font-family: 'calisMTbol';
 	color:#ffde6b;
+	margin-top: 0;
+	margin-bottom: 55px;
 }
 
-.first-time-offer-sec strong{
+.special-offer-con strong{
 	font-family: 'calisMTbol';
 	font-size: 36px;
 	display: inline-block;
 	vertical-align: baseline;
+	margin-bottom: 30px;
 }
-.first-time-offer-sec span{
+.special-offer-con span{
 	font-family: 'Montserrat-Medium';
 	font-size: 24px;
 	display: inline-block;
 	vertical-align: baseline;
+	margin-bottom: 10px;
 }
-.conversation-sec{
-	padding: 50px 0 60px 20px;
+
+.hh-conversation-sec{
+	padding: 50px 0 33px 20px;
+
 }
 .conversation-main{
-	padding-right: 600px;
+	padding-right: 630px;
 	position: relative;
 }
-.conversation-img{
-	position: absolute;
-	background-repeat: no-repeat !important;
+.conversation-dsc{
+	padding-bottom: 25px;
+}
+
+.conversation-dsc p{
+	margin-bottom: 20px;
+}
+.conversation-img {
+    position: absolute;
+    background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center center !important;
-	top:0;
-	left: 0;
-	bottom: 0;
-	left: 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 46%;
+    z-index: 2;
 }
 .inflammation-head{
 	text-align: center;
+	padding-bottom: 30px;
 }
 .inflammation-head h2{
 	font-family: 'calisMTbol';
+	margin-top: 0;
+}
+.inflammation-dsc li,
+.health-risks-dsc li{
+	margin-bottom: 20px;
 }
 
-.health-risks-hrad{
+
+
+
+.hh-health-risks-sec .health-risks-head{
 	background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center center !important;
-    padding: 30px 0;
+    padding: 10px 0 10px;
     text-align: center;
     color: #fff;
     font-family: 'calisMTbol';
+    background: #87300f !important
 }
-
-
-
+.hh-health-risks-sec .health-risks-head h2{
+	font-family: 'calisMTbol';
+	margin-top: 0;
+}
+.health-risks-dsc{
+	padding-top: 35px;
+}
 
 
 
