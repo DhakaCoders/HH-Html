@@ -7,9 +7,11 @@ hh-content-sec-7-wrp
 	padding-top: 50px;
 	padding-bottom: 40px;
 }
-.hh-line-headding{
-	text-align: center;
-	padding-bottom: 20px;
+.hh-line-headding {
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 700px;
+    margin: 0 auto;
 }
 .hh-line-headding h2{
 	margin: 0;
@@ -140,7 +142,7 @@ hh-content-sec-9-wrp
 }
 
 @media(max-width: 1199px){
-
+	
 
 	.hide-md{
 		display: none!important;
@@ -170,6 +172,20 @@ hh-content-sec-9-wrp
 	.hh-line-headding h2 br{
 		display: none;
 	}
+	.message-box h2 {
+	    padding: 15px 20px;
+	}
+	.hh-line-headding {
+	    max-width: 600px;
+	}
+	.hh-title-headding {
+	    max-width: 600px;
+	    margin: 0 auto;
+	}
+	.hh-content-sec-8-wrp span:first-of-type{
+		top: -154px;
+	}
+	
 
 }
 
@@ -180,6 +196,17 @@ hh-content-sec-9-wrp
 	}
 	.show-sm{
 		display: block!important;
+	}
+	/*typo*/
+	h1{
+		font-size: 45px
+	}
+	h2{
+		font-size: 31px
+	}
+
+	h3{
+		font-size: 24px
 	}
 	.hh-two-grid-rgt-dsc p {
 	    font-size: 18px;
@@ -192,6 +219,16 @@ hh-content-sec-9-wrp
 	}
 	.hh-two-grid-rgt-img{
 		padding-bottom: 20px;
+	}
+	.hh-content-sec-9-wrp .hh-two-grid-rgt-img img {
+	    height: auto;
+	}
+	.hh-content-sec-9-wrp .hh-two-grid-lft-img img {
+	    height: auto;
+	}
+	.hh-title-headding h2,
+	.hh-line-headding h2{
+		line-height: 35px;
 	}
 	
 }
@@ -217,6 +254,7 @@ hh-content-sec-9-wrp
 	.hh-two-grid-rgt-dsc strong {
 	    font-size: 16px;
 	    line-height: 20px;
+	    padding-left: 0;
 	}
 	.hh-flt-rgt-img {
 	    float: none !important;
@@ -256,6 +294,19 @@ hh-content-sec-9-wrp
 	    padding-top: 30px;
 	    padding-bottom: 30px;
 	}
+	.hh-line-headding {
+	    max-width: 500px;
+	}
+	.hh-title-headding {
+	    max-width: 500px;
+	}
+	.hh-title-headding h2,
+	.hh-line-headding h2{
+		line-height: 30px;
+	}
+	.message-box h2 {
+	    padding: 15px 10px;
+	}
 	
 }
 
@@ -268,13 +319,33 @@ hh-content-sec-9-wrp
 
 
 @media(max-width: 575px){
-	
+	/*typo*/
+	h1{
+		font-size: 40px
+	}
+	h2{
+		font-size: 28px
+	}
+
+	h3{
+		font-size: 22px
+	}
 
 }
 
 
 @media(max-width: 479px){
-	
+	/*typo*/
+	h1{
+		font-size: 37px
+	}
+	h2{
+		font-size: 26px
+	}
+
+	h3{
+		font-size: 20px
+	}
 
 }
 
