@@ -23,6 +23,7 @@ body {
     font-size: 22px;
     line-height: 1.2;
     font-family: 'Montserrat-Regular';
+    background: url(assets/images/hh-page-body-bg.jpg);
 }
 img{
 	max-width: 100%;
@@ -46,9 +47,22 @@ img{
 	width: 100%;
 }
 p{
-	margin-bottom: 30px;
+	margin-bottom: 26px;
 }
-
+.plr-30{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.hh-page-bdy-controller{
+	max-width: 1170px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+.hh-page-bdy-controller{
+	-webkit-box-shadow: 0px 5px 12px 0px rgba(180,179,179,1);
+	-moz-box-shadow: 0px 5px 12px 0px rgba(180,179,179,1);
+	box-shadow: 0px 5px 12px 0px rgba(180,179,179,1);
+}
 /*typo*/
 
 h1{
