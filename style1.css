@@ -1,0 +1,132 @@
+/*
+--------------------------
+hh-content-sec-7-wrp
+--------------------------
+*/
+.hh-content-sec-7-wrp{
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.hh-line-headding{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.hh-line-headding h2{
+	margin: 0;
+	line-height: 44px;
+	font-family: 'calisMTbol';
+	margin-bottom: 15px;
+}
+.hh-line-headding span{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.hh-two-grid-rgt-dsc strong {
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: normal;
+    font-family: 'Montserrat-SemiBold';
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+.hh-two-grid-rgt-dsc p{
+	padding-left: 15px;
+}
+/*
+----------------------
+hh-content-sec-8-wrp
+----------------------
+*/
+.hh-content-sec-8-wrp{
+	padding-top: 50px;
+	position: relative;
+}
+.hh-content-sec-8-wrp span:first-of-type {
+    position: absolute;
+    right: 0;
+    top: -150px;
+}
+.hh-content-sec-8-wrp span:last-of-type {
+    position: absolute;
+    left: 0;
+    bottom: -155px;
+    z-index: 1;
+}
+.hh-title-headding h2{
+	margin: 0;
+	text-align: center;
+	line-height: 42px;
+	font-family: 'Montserrat-SemiBold';
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	color: #27002f;
+}
+.hh-flt-rgt-img{
+	float: right !important;
+}
+.hh-two-grid-rgt-img{
+	padding-right: 50px;
+}
+.hh-two-grid-rgt-img img{
+	width: 100%;
+}
+.message-box{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.message-box h2{
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	font-family: 'calisMTbol';
+	padding:15px 100px;
+}
+.hh-content-sec-8-wrp .hh-two-grid-lft-img img{
+	min-height: 445px;
+}
+.hh-content-sec-8-wrp .hh-two-grid-rgt-dsc p span{}
+
+/*
+---------------------
+hh-content-sec-9-wrp
+---------------------
+*/
+.hh-content-sec-9-wrp{
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.hh-fluid-img{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.hh-content-sec-9-wrp .hh-two-grid-rgt-img{
+	padding-right: 0;
+	margin-top: -10px;
+}
+.hh-content-sec-9-wrp .hh-two-grid-rgt-img img{
+	height:720px; 
+}
+.hh-content-sec-9-wrp .hh-two-grid-rgt-dsc p span{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 15px;
+	padding: 5px 10px 7px 15px;
+	margin-left: -15px;
+}
+.mrg-lft{
+	margin-left: -15px;
+}
+.hh-content-sec-9-wrp .hh-two-grid-lft-img img{
+	height: 530px;
+}
