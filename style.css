@@ -41,6 +41,12 @@ img{
 	bottom: 0;
 	z-index: 10;
 }
+.container{
+	max-width: 1170px;
+	width: 100%;
+}
+
+
 /*typo*/
 
 h1{
