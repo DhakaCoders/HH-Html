@@ -89,7 +89,7 @@ h3{
 	position: fixed;
     left: 0;
     right: 0;
-    top:0;
+    top:-110px;
     background: #fff;
     -ms-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
@@ -102,10 +102,7 @@ h3{
 }
 .header-innr{
 	background: #fff;
-	padding: 12px 0;/*
-	-ms-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);*/
+	padding: 12px 0;
 }
 .hdr-left,
 .hdr-rgt{
@@ -180,13 +177,28 @@ h3{
 	vertical-align: baseline;
 	margin-bottom: 10px;
 }
+
+
+
 .hh-conversation-sec{
-	/*padding: 50px 0 33px 20px;*/
-	padding: 50px 0 0 0;
+	padding-top: 50px;
+	position: relative;
+	overflow: hidden;
 }
-
-
-
+.hh-conversation-sec:after {
+    content: "";
+    position: absolute;
+    background: url(assets/images/vertical-line-img.png);
+    background-repeat: no-repeat;
+     background-position: center center; 
+    background-size: 100% auto;
+    top: 50px;
+    right: -22px;
+    width: 41px;
+    height: 772px;
+    z-index: 3;
+    bottom: 48px;
+}
 .conversation-main{
 	padding-right: 630px;
 	position: relative;
@@ -197,14 +209,53 @@ h3{
 .conversation-img {
     position: absolute;
     background-repeat: no-repeat !important;
-    background-size: cover !important;
     background-position: center center !important;
     top: 0;
-    right: 0;
-    bottom: 0;
-    left: 46%;
+    right: -15px;
+    bottom: 58px;
+    left: 30%;
     z-index: 2;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .inflammation .hh-line-headding h2 {
     margin-bottom: 8px;
 }
@@ -217,7 +268,7 @@ h3{
     background-position: center center !important;
 }
 .hh-health-risks-sec .health-risks-head{
-    padding: 10px 15px 10px;
+    padding: 10px 15px 20px;
     text-align: center;
     color: #fff;
     font-family: 'calisMTbol';
@@ -250,8 +301,10 @@ h3{
 
 
 
-.health-risks-grd-wrp{
-	text-align: center;
+.health-risks-grd-wrp {
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 10px;	
 }
 .health-risks-grd-wrp li {
     width: 25%;
@@ -313,14 +366,14 @@ h3{
 .health-risks-grd-wrp li:last-child a:after{
 	content: "";
 	position: absolute;
-	background:url(../images/hh-more-issue-icon.png); 
+	background:url(assets/images/hh-more-issue-ico.png); 
 	background-repeat: no-repeat; 
 	background-position: center center;
 	background-size: 100% auto;
 	top: 0;
 	left:0;
-	width:27px;
-	height: 27px;
+	width:26px;
+	height: 26px;
 	z-index: 1;
 }
 
@@ -337,24 +390,24 @@ h3{
 */
 
 @media(max-width: 1099px){
-.conversation-main {
-    padding-right: 429px;
-    position: relative;
-}
-.special-offer-con {
-    padding: 38px 60px 55px;
-}
+	.conversation-main {
+	    padding-right: 429px;
+	    position: relative;
+	}
+	.special-offer-con {
+	    padding: 38px 60px 55px;
+	}
 }
 
 @media(max-width: 991px){
-/*typo*/
-h1 {
-    font-size: 35px;
-}
+	/*typo*/
+	h1 {
+	    font-size: 35px;
+	}
 
-h2 {
-    font-size: 28px;
-}
+	h2 {
+	    font-size: 28px;
+	}
 
 /*page*/
 
@@ -374,45 +427,53 @@ h2 {
 	.special-offer-con strong {
 	    font-size: 26px;
 	}
-.conversation-main {
-    padding-right: 370px;
-    position: relative;
-}
-
+	.conversation-main {
+	    padding-right: 370px;
+	    position: relative;
+	}
+	.health-risks-grd-wrp li:last-child a {
+	    padding: 0 10px;
+	}
+	.health-risks-grd-wrp li:last-child a:after {
+	    left: -28px;
+	}
 }
 
 @media(max-width: 767px){
-h1 {
-    font-size: 30px;
-}
-h2 {
-    font-size: 25px;
-}
-p {
-    margin-bottom: 20px;
-    font-size: 18px;
-}
+	h1 {
+	    font-size: 30px;
+	}
+	h2 {
+	    font-size: 25px;
+	}
+	p {
+	    margin-bottom: 20px;
+	    font-size: 18px;
+	}
 
-/*header*/
-.hh-fxd-hdr .hdr-logo,
-.header .hdr-logo{
-    max-width: 135px;
-}
-.hh-fxd-hdr .secure-img,
-.header .secure-img {
-    max-width: 175px;
-}
-
-
-/*pages*/
-.conversation-main {
-    padding-right: 0;
-}
-.conversation-img {
-    position: static;
-    min-height: 500px;
-    margin-bottom: 30px;
-}
+	/*header*/
+	.hh-fxd-hdr .hdr-logo,
+	.header .hdr-logo{
+	    max-width: 135px;
+	}
+	.hh-fxd-hdr .secure-img,
+	.header .secure-img {
+	    max-width: 175px;
+	}
+	.conversation-main {
+	    padding-right: 0;
+	}
+	.conversation-img {
+	    position: static;
+	    min-height: 335px;
+	    background-size: cover!important;
+	}
+	.hh-conversation-sec:after {
+	    content: none;
+	}
+	.conversation-dsc {
+	    padding-bottom: 35px;
+	}
 	.special-offer-con h3 {
 	    font-size: 18px;
 	}
@@ -428,47 +489,51 @@ p {
 	.special-offer-con span {
 	    font-size: 17px;
 	}
-.hh-health-risks-sec .health-risks-head h2 br {
-    display: none;
-}
-.health-risks-grd-wrp li {
-    width: 33.333%;
-}
-.health-risks-grd-wrp li:nth-child(4n+1){
-	clear: initial;
-}
-.health-risks-grd-wrp li:nth-child(3n+1){
-	clear: left;
-}
-.health-risks-grd-wrp li:last-child{
-	width:66.66%;
-}
-.health-risks-grd-wrp li:last-child a {
-    padding: 0 15px;
-}
+	.hh-health-risks-sec .health-risks-head h2 br {
+	    display: none;
+	}
+	.health-risks-grd-wrp li {
+	    width: 33.333%;
+	}
+	.health-risks-grd-wrp li:nth-child(4n+1){
+		clear: initial;
+	}
+	.health-risks-grd-wrp li:nth-child(3n+1){
+		clear: left;
+	}
+	.health-risks-grd-wrp li:last-child{
+		width:66.66%;
+	}
+	.health-risks-grd-wrp li:last-child a {
+	    padding: 0 15px;
+	}
 
 }
 
 @media(max-width: 639px){
-.health-risks-grd-wrp li {
-    width: 50%;
-    margin-bottom: 40px;
-}
-.health-risks-grd-wrp li:nth-child(3n+1){
-	clear: initial;
-}
-.health-risks-grd-wrp li:nth-child(2n+1){
-	clear: left;
-}
-.health-risks-grd-wrp li:last-child{
-	width:100%;
-}
-.health-risks-grd-wrp li:last-child a {
-    padding: 0 15px;
-    margin-top: 0;
-}
-
-
+	.shipping-progress-bar-con {
+	    background: #fff;
+	    padding: 20px 0;
+	    text-align: center;
+	}
+	.health-risks-grd-wrp li {
+	    width: 50%;
+	    margin-bottom: 40px;
+	}
+	.health-risks-grd-wrp li:nth-child(3n+1){
+		clear: initial;
+	}
+	.health-risks-grd-wrp li:nth-child(2n+1){
+		clear: left;
+	}
+	.health-risks-grd-wrp li:last-child{
+		width:100%;
+	}
+	.health-risks-grd-wrp li:last-child a {
+	    padding: 0 15px;
+	    margin-top: 0;
+	}
+	
 }
 
 @media(max-width: 575px){
@@ -476,24 +541,55 @@ p {
 }
 
 @media(max-width: 479px){
-.health-risks-grd-wrp li {
-    width: 100%;
-}
-.health-risks-grd-wrp li:nth-child(2n+1){
-	clear: initial;
-}
-.hh-fxd-hdr .hdr-logo,
-.header .hdr-logo{
-    max-width: 100px;
-}
-.header .secure-img {
-    max-width: 125px;
-}
-
+	.health-risks-grd-wrp li {
+	    width: 100%;
+	}
+	.health-risks-grd-wrp li:nth-child(2n+1){
+		clear: initial;
+	}
+	.hh-fxd-hdr .hdr-logo,
+	.header .hdr-logo{
+	    max-width: 100px;
+	}
+	.header .secure-img {
+	    max-width: 125px;
+	}
+	.health-risks-grd-wrp li a {
+	    font-size: 17px;
+	}
+	.special-offer-con {
+	    padding: 35px 10px 40px;
+	}
+	.hh-fxd-hdr .secure-img, 
+	.header .secure-img {
+	    max-width: 130px;
+	}
+	.hh-fxd-hdr .hdr-logo, 
+	.header .hdr-logo {
+	    max-width: 90px;
+	}
+	.health-risks-grd-wrp {
+	    padding-top: 20px;
+	}
 }
 
 @media(max-width: 359px){
-
+	.health-risks-grd-wrp li a {
+	    font-size: 15px;
+	}
+	.health-risks-grd-wrp li:last-child a:after {
+	    width: 18px;
+	    height: 18px;
+	    left: -12px;
+	}
+	.hh-fxd-hdr .secure-img, 
+	.header .secure-img {
+	    max-width: 100px;
+	}
+	.hh-fxd-hdr .hdr-logo, 
+	.header .hdr-logo {
+	    max-width: 80px;
+	}
 }
 
 
