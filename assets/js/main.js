@@ -1,7 +1,5 @@
 (function($) {
-
-// fixed-header
-
+var windowWidth = $(window).width();
 window.onscroll = function(){
   scrollFunction()
 };
