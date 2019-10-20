@@ -129,7 +129,7 @@ h3{
 	width:100%;
 }
 
-
+/*page start*/
 .hh-shipping-progress-bar{
 }
 .shipping-progress-bar-con {
@@ -137,8 +137,6 @@ h3{
     padding: 25px 0 40px;
     text-align: center;
 }
-
-
 .special-offer-con {
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -177,9 +175,6 @@ h3{
 	vertical-align: baseline;
 	margin-bottom: 10px;
 }
-
-
-
 .hh-conversation-sec{
 	padding-top: 50px;
 	position: relative;
@@ -216,51 +211,9 @@ h3{
     left: 30%;
     z-index: 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .inflammation .hh-line-headding h2 {
     margin-bottom: 8px;
 }
-
-
 
 .hh-health-risks-sec{
 	background-repeat: no-repeat !important;
@@ -288,7 +241,6 @@ h3{
     background-position: center center !important;
     z-index: 1;
 }
-
 .hh-health-risks-sec .health-risks-head h2{
 	font-family: 'calisMTbol';
 	margin-top: 0;
@@ -298,9 +250,6 @@ h3{
 .health-risks-dsc{
 	padding-top: 35px;
 }
-
-
-
 .health-risks-grd-wrp {
     text-align: center;
     padding-top: 42px;
@@ -361,8 +310,6 @@ h3{
     margin-bottom: 15px;
     position: relative;
 }
-
-
 .health-risks-grd-wrp li:last-child a:after{
 	content: "";
 	position: absolute;
@@ -376,9 +323,6 @@ h3{
 	height: 26px;
 	z-index: 1;
 }
-
-
-
 
 
 
@@ -400,14 +344,7 @@ h3{
 }
 
 @media(max-width: 991px){
-	/*typo*/
-	h1 {
-	    font-size: 35px;
-	}
 
-	h2 {
-	    font-size: 28px;
-	}
 
 /*page*/
 

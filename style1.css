@@ -46,6 +46,7 @@ hh-content-sec-7-wrp
 hh-content-sec-8-wrp
 ----------------------
 */
+
 .hh-content-sec-8-wrp{
 	padding-top: 50px;
 	position: relative;
@@ -198,7 +199,7 @@ hh-content-sec-9-wrp
 
 }
 
-
+ 
 @media(max-width: 991px){
 	.hide-sm{
 		display: none!important;
@@ -208,10 +209,10 @@ hh-content-sec-9-wrp
 	}
 	/*typo*/
 	h1{
-		font-size: 45px
+		font-size: 42px
 	}
 	h2{
-		font-size: 31px
+		font-size: 30px
 	}
 
 	h3{
@@ -352,14 +353,14 @@ hh-content-sec-9-wrp
 @media(max-width: 479px){
 	/*typo*/
 	h1{
-		font-size: 37px
+		font-size: 32px
 	}
 	h2{
-		font-size: 26px
+		font-size: 22px
 	}
 
 	h3{
-		font-size: 20px
+		font-size: 18px
 	}
 
 }
