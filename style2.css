@@ -332,6 +332,10 @@
 	.hh-pkg-sec-hdr h2 {
 	    margin-bottom: 40px;
 	}
+	.hh-pkg-grd-col-btm-bdr{
+		max-width: 450px;
+		margin: 0 auto;
+	}
 
 }
 
