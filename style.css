@@ -49,6 +49,9 @@ img{
 p{
 	margin-bottom: 26px;
 }
+a{
+	word-wrap: break-word;
+}
 .plr-30{
 	padding-left: 30px!important;
 	padding-right: 30px!important;

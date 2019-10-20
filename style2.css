@@ -115,7 +115,7 @@
   	border-radius: 5px 5px 0 0;
 }
 .hh-pkg-grd-col-hdr strong{
-	padding: 0 0 12px 0;
+	padding: 0 10px 12px 10px;
 	font-size: 40px;
 	line-height: 45px;
 	font-family: 'BarlowCondensed-Bold';
@@ -124,8 +124,7 @@
 	margin: 0 auto;
 	position: relative;
 	display: table;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding: 15px 20px;
 }
 .hh-pkg-grd-col-fea-img div{
 	display: inline-block;
@@ -133,7 +132,7 @@
 }
 .hh-pkg-grd-col-fea-img span{
 	position: absolute;
-	right: 0;
+	right: 15px;
 	top: 13px;
 }
 .hh-pkg-grd-col{
@@ -210,6 +209,10 @@
 	font-size: 14px;
 	line-height: 19px;
 }
+.hh-footer-wrap p{
+	font-size: 14px;
+	line-height: 19px;	
+}
 .hh-ftr-nav ul{
 	padding-bottom: 15px;
 }
@@ -218,9 +221,18 @@
 	display: inline-block;
 	vertical-align: baseline;
 }
-
+.hh-ftr-nav ul li:first-child{
+	padding-left: 0;
+}
+.hh-ftr-nav ul li:last-child{
+	padding-right: 0;
+}
 .hh-ftr-nav ul li a{
 	color: inherit;
+}
+.hh-ftr-nav ul li a:hover,
+.hh-ftr-top-links-sec ul li a:hover{
+	opacity: .7;
 }
 
 .hh-pkg-grd-ftr{
@@ -265,3 +277,93 @@
 .hh-ftr-des{
 	padding: 0 51px;
 }
+
+
+
+@media(max-width: 1199px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	.hh-pkg-grd-col-fea-img span{
+		right: 20px;
+	}
+	.hh-creditcards{
+		padding-left: 0;
+	}
+}
+
+
+@media(max-width: 991px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+}
+
+
+@media(max-width: 767px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	.hh-offering-hug-img-col{
+		padding-bottom: 20px;
+	}
+	.hh-pkg-grd-controller > ul > li{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.hh-pkg-grd-controller > ul > li:nth-child(2) .hh-pkg-grd-col-btm-bdr {
+	    margin-top: 0;
+	}
+	.hh-pkg-grd-ftr {
+	    padding-left: 31px;
+	    padding-right: 5px;
+	    max-width: 350px;
+	    margin: 0 auto;
+	}
+	.hh-pkg-sec-hdr h2 {
+	    margin-bottom: 40px;
+	}
+
+}
+
+
+
+@media(max-width: 639px){
+
+}
+
+
+
+@media(max-width: 575px){
+	.hh-ftr-des {
+	    padding: 0;
+	}
+	.hh-ftr-top-links-sec ul li a{
+		font-size: 20px;
+	}
+	.hh-ftr-nav ul li {
+	    padding: 0 20px;
+	}
+}
+
+
+@media(max-width: 479px){
+
+
+}
+
+
+
+@media(max-width: 359px){
+
+}
+
