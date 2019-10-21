@@ -235,26 +235,27 @@ h3{
     background-size: cover !important;
     background-position: center center !important;
 }
-.hh-health-risks-sec .health-risks-head{
-    padding: 10px 15px 20px;
+.hh-health-risks-sec .health-risks-head {
+    padding: 10px 15px 15px;
     text-align: center;
     color: #fff;
     font-family: 'Calisto MT';
-   overflow: hidden;
-    position:relative;
-	margin-left: -25px;
-	margin-right: -25px;
+    overflow: hidden;
+    position: relative;
+    margin-left: -25px;
+    margin-right: -25px;
 }
 .health-risks-head-bg {
     position: absolute;
-    left: -76px;
-    right: -69px;
+    left: 0;
+    right: 0;
     top: 0;
     bottom: 0;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center center !important;
     z-index: 1;
+    border-radius: 8px;
 }
 .hh-health-risks-sec .health-risks-head h2{
 	font-family: 'Calisto MT';

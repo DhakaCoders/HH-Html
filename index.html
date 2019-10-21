@@ -27,7 +27,6 @@
             </a>   
           </div> 
         </div>
-
       </div>
     </div>
   </div>
@@ -760,6 +759,21 @@
       var newd1 = new LazyLoad({
           elements_selector: ".lazy"
       });
+  }
+
+// fxed-header
+  var windowWidth = $(window).width();
+  window.onscroll = function(){
+    scrollFunction()
+  };
+  function scrollFunction(){
+    var windowWidth = $(window).width();  
+    if(document.body.scrollTop>600||document.documentElement.scrollTop>600){
+      $(".hh-fxd-hdr").css({'top':'0','z-index':'99'});
+
+    }else{
+      $(".hh-fxd-hdr").css('top', '-110px');
+    }
   }
 </script>
 </body>
