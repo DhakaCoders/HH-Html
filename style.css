@@ -466,11 +466,6 @@ h3{
 	padding-top: 30px;
 	padding-bottom: 40px;
 }
-.hh-content-sec-9-wrp .hh-two-grid-rgt-img{
-	padding-right: 0;
-	margin-top: -10px;
-	margin-left: -15px;
-}
 .hh-content-sec-9-wrp .hh-two-grid-rgt-dsc p span{
 	display: inline-block;
 	vertical-align: baseline;
@@ -782,9 +777,14 @@ h3{
 Milon
 --------------
 */
-.hh-content-sec-9-wrp .hh-two-grid-rgt-img img {
-    width: auto;
-    height: 780px;
+.hh-content-sec-9-wrp .hh-two-grid-rgt-img {
+    padding-right: 0;
+    margin-top: -50px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.hh-content-sec-9-wrp .hh-flt-rgt-img{
+	padding-left: 0;
 }
 
 
