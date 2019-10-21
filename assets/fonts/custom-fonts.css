@@ -70,6 +70,18 @@
   font-style: normal;
 }
 
+@font-face {
+    font-family: 'Calisto MT';
+    src: url('Calis-MTBol/CalisMTBol.eot');
+    src: url('Calis-MTBol/CalisMTBol.eot?#iefix') format('embedded-opentype'),
+        url('Calis-MTBol/CalisMTBol.woff2') format('woff2'),
+        url('Calis-MTBol/CalisMTBol.woff') format('woff'),
+        url('Calis-MTBol/CalisMTBol.ttf') format('truetype'),
+        url('Calis-MTBol/CalisMTBol.svg#CalisMTBol') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 
 @font-face {
