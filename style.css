@@ -234,6 +234,7 @@ h3{
 	background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center center !important;
+    border-radius: 0 0 10px 10px;
 }
 .hh-health-risks-sec .health-risks-head {
     padding: 10px 15px 15px;
@@ -253,7 +254,7 @@ h3{
     bottom: 0;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-position: center center !important;
+    background-position: center bottom -4px!important;
     z-index: 1;
     border-radius: 8px;
 }
@@ -325,6 +326,7 @@ h3{
     margin-top: 72px;
     margin-bottom: 15px;
     position: relative;
+    margin-left: 30px;
 }
 .health-risks-grd-wrp li:last-child a:after{
 	content: "";
@@ -441,13 +443,10 @@ h3{
 .hh-two-grid-rgt-img{
 	padding-right: 50px;
 }
-/*.hh-two-grid-lft-img img,
-.hh-two-grid-rgt-img img{
-	width: 100%;
-}*/
+
 .message-box{
 	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	background-position: center center!important;
 
 }
