@@ -193,7 +193,7 @@ h3{
 	position: relative;
 	overflow: hidden;
 }
-.hh-conversation-sec:after {
+/*.hh-conversation-sec:after {
     content: "";
     position: absolute;
     background: url(assets/images/vertical-line-img.png);
@@ -206,10 +206,26 @@ h3{
     height: 772px;
     z-index: 3;
     bottom: 48px;
+}*/
+.conversation-main {
+    padding-right: 630px;
+    position: relative;
+    margin-right: -25px;
+    position: relative;
 }
-.conversation-main{
-	padding-right: 630px;
-	position: relative;
+.conversation-main:after {
+    content: "";
+    position: absolute;
+    background: url(assets/images/vertical-line-img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    top: 2%;
+    right: -22px;
+    width: 41px;
+    height: 90%;
+    z-index: 3;
+    bottom: 48px;
 }
 .conversation-dsc{
 	padding-bottom: 18px;
@@ -221,10 +237,11 @@ h3{
     background-repeat: no-repeat !important;
     background-position: center center !important;
     top: 0;
-    right: -15px;
-    bottom: 58px;
-    left: 30%;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 2;
+    background-size: cover;
 }
 .inflammation .hh-line-headding h2 {
     margin-bottom: 8px;
@@ -984,7 +1001,9 @@ Milon
 	.special-offer-con span {
 	    font-size: 16px;
 	}
-
+	.conversation-main:after {
+	    content: none;
+	}
 	.health-risks-grd-wrp li {
 	    width: 33.333%;
 	}
@@ -1132,7 +1151,7 @@ Milon
 	    background-position: center center;
 	    background-size: 100% auto;
 	    top: 10%;
-	    right: -22px;
+	    right: 0;
 	    width: 41px;
 	    height: 85%;
 	    z-index: 3;
