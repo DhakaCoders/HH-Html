@@ -779,10 +779,9 @@ Milon
 */
 .hh-content-sec-9-wrp .hh-two-grid-rgt-img {
     padding-right: 0;
+    margin-top: -20px;
 }
-.hh-content-sec-9-wrp .hh-flt-rgt-img{
-	padding-left: 0;
-}
+
 
 
 @media(max-width: 1199px){
