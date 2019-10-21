@@ -1123,7 +1123,7 @@ Milon
 		margin-right: -25px;
 		position: relative;
 	}
-	.conversation-img-xs:after{
+	.conversation-img-xs:after{ 
 		content: "";
 	    position: absolute;
 	    background: url(assets/images/vertical-line-img.png);
