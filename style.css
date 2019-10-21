@@ -226,7 +226,6 @@ h3{
     left: 30%;
     z-index: 2;
 }
-
 .inflammation .hh-line-headding h2 {
     margin-bottom: 8px;
 }
@@ -1122,6 +1121,21 @@ Milon
 	}
 	.conversation-img-xs{
 		margin-right: -25px;
+		position: relative;
+	}
+	.conversation-img-xs:after{
+		content: "";
+	    position: absolute;
+	    background: url(assets/images/vertical-line-img.png);
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-size: 100% auto;
+	    top: 50px;
+	    right: -22px;
+	    width: 41px;
+	    height: 500px;
+	    z-index: 3;
+	    bottom: 48px;
 	}
 	.hh-conversation-sec{
 		padding-top: 0;
