@@ -337,12 +337,44 @@ h3{
 	height: 26px;
 	z-index: 1;
 }
-
-
 .inflammation-dsc{
 	padding-top: 20px;
 	padding-bottom: 34px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -780,10 +812,9 @@ Milon
 */
 .hh-content-sec-9-wrp .hh-two-grid-rgt-img {
     padding-right: 0;
+    margin-top: -20px;
 }
-.hh-content-sec-9-wrp .hh-flt-rgt-img{
-	padding-left: 0;
-}
+
 
 
 @media(max-width: 1199px){
