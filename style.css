@@ -1130,10 +1130,10 @@ Milon
 	    background-repeat: no-repeat;
 	    background-position: center center;
 	    background-size: 100% auto;
-	    top: 50px;
+	    top: 10%;
 	    right: -22px;
 	    width: 41px;
-	    height: 500px;
+	    height: 85%;
 	    z-index: 3;
 	    bottom: 48px;
 	}
