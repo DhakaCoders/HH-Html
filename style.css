@@ -168,13 +168,13 @@ h3{
 
 }
 .special-offer-con h1{
-	font-family: 'calisMTbol';
+	font-family: 'Calisto MT';
 	color:#ffde6b;
 	margin-top: 0;
 	margin-bottom: 55px;
 }
 .special-offer-con strong{
-	font-family: 'calisMTbol';
+	font-family: 'Calisto MT';
 	font-size: 36px;
 	display: inline-block;
 	vertical-align: baseline;
@@ -238,7 +238,7 @@ h3{
     padding: 10px 15px 20px;
     text-align: center;
     color: #fff;
-    font-family: 'calisMTbol';
+    font-family: 'Calisto MT';
    overflow: hidden;
     position:relative;
 	margin-left: -25px;
@@ -256,7 +256,7 @@ h3{
     z-index: 1;
 }
 .hh-health-risks-sec .health-risks-head h2{
-	font-family: 'calisMTbol';
+	font-family: 'Calisto MT';
 	margin-top: 0;
 	position: relative;
 	z-index: 2
@@ -337,12 +337,44 @@ h3{
 	height: 26px;
 	z-index: 1;
 }
-
-
 .inflammation-dsc{
 	padding-top: 20px;
 	padding-bottom: 34px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -542,7 +574,7 @@ h3{
 	color: #fff;
 }
 .hh-pkg-sec-hdr h2{
-	font-family: 'calisMTbol';
+	font-family: 'Calisto MT';
 	margin-bottom: 100px;
 }
 
@@ -612,6 +644,7 @@ h3{
 	font-size: 40px;
 	line-height: 45px;
 	font-family: 'BarlowCondensed-Bold';
+	text-shadow: 2px 2px #595653;
 }
 .hh-pkg-grd-col-fea-img{
 	margin: 0 auto;
