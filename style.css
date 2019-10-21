@@ -647,7 +647,7 @@ h3{
 	font-size: 40px;
 	line-height: 45px;
 	font-family: 'BarlowCondensed-Bold';
-	text-shadow: 2px 2px #595653;
+	text-shadow: 0px 2px #595653;
 }
 .hh-pkg-grd-col-fea-img{
 	margin: 0 auto;
@@ -815,10 +815,10 @@ Milon
 */
 .hh-content-sec-9-wrp .hh-two-grid-rgt-img {
     padding-right: 0;
+    margin-top: -20px;
+    margin-left: -15px;
 }
-.hh-content-sec-9-wrp .hh-flt-rgt-img{
-	padding-left: 0;
-}
+
 
 
 @media(max-width: 1199px){
