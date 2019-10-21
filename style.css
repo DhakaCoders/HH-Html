@@ -348,40 +348,6 @@ h3{
     max-width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hh-content-sec-7-wrp{ 
 	padding-top: 50px;
 	padding-bottom: 40px;
@@ -425,7 +391,12 @@ h3{
 .hh-two-grid-rgt-dsc p{
 	padding-left: 15px;
 }
-
+.hh-content-sec-7-wrp .hh-two-grid-lft-img img{
+	width: 100%;
+}
+.hh-content-sec-8-wrp .hh-two-grid-rgt-dsc p {
+    padding-left: 0;
+}
 
 .hh-content-sec-8-wrp{
 	padding-top: 50px;
@@ -1031,7 +1002,7 @@ Milon
 	    padding: 0 15px;
 	}
 	.hh-two-grid-lft-img{
-		padding-bottom: 30px;
+		padding-bottom: 20px;
 		text-align: center;
 	}
 	.hh-two-grid-rgt-dsc p {
@@ -1167,6 +1138,10 @@ Milon
 		background-size:auto!important;
 		background-position: center;
 		padding-bottom: 20px;
+	}
+	.hh-content-sec-9-wrp .hh-two-grid-lft-img {
+	    margin-top: 0;
+	    margin-right: 0;
 	}
 
 }
