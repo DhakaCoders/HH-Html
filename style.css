@@ -154,6 +154,8 @@ h3{
 .hh-shipping-col{
 	width:33.333%;
 	float: left;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 .hh-shipping h4 {
@@ -161,12 +163,12 @@ h3{
     font-family: Montserrat-SemiBold;
     text-transform: uppercase;
     font-size: 24px;
-    margin-top: 51px;
+    margin-top: 56px;
     width: 100%;
 }
 .hh-shipping .two_sec > h4 {
     font-family: Montserrat-Bold;
-    margin-top: 37px;
+    margin-top: 42px;
 }
 .hh-shipping:before {
     content: "";
@@ -177,64 +179,9 @@ h3{
     left: 0;
     right:0;
     border-radius: 50px;
-    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
-    top: 63px;
+   /* box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
+    */top: 63px;
 }
-.hh-shipping:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right:0;
-    top: 63px;
-    background:url(assets/images/shipping-line-img.png);
-    background-repeat: repeat-x;
-    background-position: center center;
-    background-size:100% auto;
-    max-height: 14px;
-    height:100%;
-    width:100%;
-    border-radius: 50px;
-}
-
-.nw-post-gird-dsc > a:after {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 1px;
-    background-image: url(../images/list-icon.svg);
-    background-repeat: no-repeat;
-    width: 14px;
-    height: 14px;
-    background-size: 14px 14px;
-    -ms-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1005,6 +952,12 @@ h3{
 		max-height: initial;
 	}
 }
+
+@media (max-width: 830px)}{
+	.hh-shipping h4 {
+	    font-size: 16px;
+	}
+}
 @media(max-width: 770px){
 	.col-sm-6 {
     	width: 100%!important;
@@ -1220,9 +1173,6 @@ h3{
 	}
 }
 @media(max-width: 639px){
-	.hh-shipping h4 {
-	    font-size: 15px;
-	}
 	.health-risks-grd-wrp li {
 		width: 50%;
 		margin-bottom: 40px;
@@ -1248,9 +1198,7 @@ h3{
 	h3{
 		font-size: 22px
 	}
-	.hh-shipping h4 {
-	    font-size: 12px;
-	}	
+
 	.hh-ftr-des {
 		padding: 0;
 	}
@@ -1262,38 +1210,31 @@ h3{
 	}
 }
 @media(max-width: 479px){
-
-.hh-shipping {
-    margin-left: -15px;
-    margin-right: -15px;
-}
-.hh-shipping img {
-    top: 48px;
-	max-width: 45px;
-}    
-.hh-shipping .two_sec img{
-	top:44px;
-	max-width: 55px;
-}
-
-.hh-shipping h4 {
-	margin-top: 58px;
-	font-size: 10px;
-}
-.hh-shipping .two_sec > h4 {
-    margin-top: 48px;
-}
-.hh-shipping-col {
-    width: 30%;
-    float: left;
-}
-.hh-shipping-col.two_sec{
-    width: 40%;
-    float: left;
-}
-.hh-shipping-col.two_sec span{
-    display: block;
-}	
+	.hh-shipping-progress-bar{
+		margin-top: -10px;
+	}
+	.hh-shipping {
+	    margin-left: -15px;
+	    margin-right: -15px;
+	    padding-bottom: 12px;
+	}
+	.hh-shipping h4 {
+	    font-size: 14px;
+	}
+	.hh-shipping:before {
+	    height: 12px;
+	}
+	.hh-shipping-col {
+	    width: 30%;
+	    float: left;
+	}
+	.hh-shipping-col.two_sec{
+	    width: 40%;
+	    float: left;
+	}
+	.hh-shipping-col.two_sec span{
+	    display: block;
+	}	
 	.health-risks-grd-wrp li {
 		width: 100%;
 	}
@@ -1329,5 +1270,15 @@ h3{
 		width: 18px;
 		height: 18px;
 		left: -12px;
+	}
+}
+@media(max-width: 335px){
+	.hh-shipping-col {
+	    width: 27%;
+	    float: left;
+	}
+	.hh-shipping-col.two_sec{
+	    width: 46%;
+	    float: left;
 	}
 }
