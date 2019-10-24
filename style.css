@@ -180,9 +180,36 @@ h3{
     box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
     top: 63px;
 }
+.hh-shipping:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right:0;
+    top: 63px;
+    background:url(assets/images/shipping-line-img.png);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-size:100% auto;
+    max-height: 14px;
+    height:100%;
+    width:100%;
+    border-radius: 50px;
+}
 
-
-
+.nw-post-gird-dsc > a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 1px;
+    background-image: url(../images/list-icon.svg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
 
 
 
