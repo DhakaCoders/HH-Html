@@ -93,6 +93,9 @@ h2{
 h3{
 	font-size: 24px
 }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+}
 .hh-fxd-hdr{
 	background: #fff;
 	-ms-transition: all 0.5s ease;
@@ -142,14 +145,14 @@ h3{
 .hh-shipping img{
 	display:inline-block; 
 	position:relative; 
-	top:40px;
-	max-width: 57px;
-	width:100%;
+	top:41px;
+	width: 57px;
+	height: 57px;
 }
 .hh-shipping .two_sec img{
 	top:34px;
-	max-width: 71px;
-	width:100%;
+	width: 71px;
+	height: 71px;
 }
 .hh-shipping-col{
 	width:33.333%;
@@ -209,6 +212,7 @@ h3{
 	margin-top: 0;
 	margin-bottom: 55px;
 	text-shadow: 1px 3px 4px #000;
+	line-height: 1.2;
 }
 .special-offer-con strong{
 	font-family: 'Calisto MT';
@@ -244,7 +248,7 @@ h3{
 	bottom: 48px;
 }
 .conversation-main{
-	padding-right: 630px;
+	padding-right: 590px;
 	position: relative;
 }
 .conversation-dsc{
@@ -417,6 +421,9 @@ h3{
 }
 .hh-content-sec-7-wrp .hh-two-grid-lft-img img{
 	width: 100%;
+}
+.hh-content-sec-8-wrp .hh-two-grid-rgt-dsc-2{
+	padding-left: 15px;
 }
 .hh-content-sec-8-wrp .hh-two-grid-rgt-dsc p {
 	padding-left: 0;
@@ -1171,6 +1178,9 @@ h3{
 		margin-top: 0;
 		margin-right: 0;
 	}
+	.hh-content-sec-8-wrp .hh-two-grid-rgt-dsc-2{
+		padding-left: 0;
+	}
 }
 @media(max-width: 639px){
 	.health-risks-grd-wrp li {
@@ -1189,6 +1199,14 @@ h3{
 	.health-risks-grd-wrp li:last-child span {
 		padding: 0 15px;
 		margin-top: 0;
+	}
+	.hh-shipping .two_sec img{
+		width: 65px;
+		height: 65px;
+	}
+	.hh-shipping img{
+		width: 50px;
+		height: 50px;
 	}
 }
 @media(max-width: 575px){
